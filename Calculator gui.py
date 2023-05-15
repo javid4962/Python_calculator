@@ -100,7 +100,7 @@ button_equal = Button(root, text="=", padx=29, pady=20,
 button_clear = Button(root, text="clear", padx=18, pady=20, font=1,
                       border=5, bg="#1a2327", fg="white", command=button_clear)
 button_dot = Button(root, text=".", padx=31, pady=20, font=1, border=5,
-                    bg="#1a2327", fg="white", command=lambda: button_click('.'))
+                bg="#1a2327", fg="white", command=lambda: button_click('.'))
 
 
 button_1.grid(row=3, column=0)
